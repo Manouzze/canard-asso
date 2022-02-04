@@ -1,0 +1,71 @@
+
+header{
+  height:244px ;
+  background: url("./Images/background-nav.jpg") no-repeat;
+  background-size: 138%;
+  background-position: center;
+}
+main{
+  color: #283845;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.logo-container{
+  width: 170px;
+}
+h1{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  letter-spacing: 3px;
+  opacity: 90%;
+ }
+.paragraph-header{
+  font-size: 12px;
+}
+.introductory-paragraph{
+  font-size: 14px;
+}
+.pecies-numbers, .member-numbers, .donation-numbers{
+  color: #FF8800;
+  font-size: 48px;
+  margin-bottom: 0%;
+}
+.iconsx3-home{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+}
+.block-evenements{
+  background: url("./Images/block-evenements-2.png") no-repeat;
+  background-size: 100%;
+}
+.block-news{
+  background: url("./Images/block-news-2.png") no-repeat;
+  background-size: 100%;
+  background-position: right;
+}
+h2{  
+  font-family: 'Bebas Neue', cursive;
+  font-size: 45px !important;
+}
+.block-news > p, .block-evenements > p{
+  font-size: 16px;
+}
+button{
+  display: inline-block;
+  border-style: none;
+  text-decoration: none;
+  border-radius: 10px!important;
+  text-align: center;
+  background-color: #6CBBB2;
+  color: #283845;
+  font-size: 14px;
+
+
+}
+
+
+/* //MEDIA QUERIES/ */
+@media screen and (min-width:576px){
+  .logo-container{
+    width: 200px;
+  }
+}
