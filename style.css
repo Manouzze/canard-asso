@@ -1,8 +1,9 @@
 
 header{
-  height:244px ;
+  min-height:244px ;
+  max-height: 500px;
   background: url("./Images/background-nav.jpg") no-repeat;
-  background-size: 138%;
+  background-size: 128%;
   background-position: center;
 }
 main{
@@ -23,8 +24,9 @@ h1{
 }
 .introductory-paragraph{
   font-size: 14px;
+  max-width: 600px;
 }
-.pecies-numbers, .member-numbers, .donation-numbers{
+.species-numbers, .member-numbers, .donation-numbers{
   color: #FF8800;
   font-size: 48px;
   margin-bottom: 0%;
@@ -35,12 +37,22 @@ h1{
 }
 .block-evenements{
   background: url("./Images/block-evenements-2.png") no-repeat;
-  background-size: 100%;
+  background-position: right;
+  filter: drop-shadow(0 0 0.75rem rgb(221, 220, 220));
+  max-width:900px;
+  width:100%;
+  min-height: 420px;
+}
+.paragraph-events, .paragraph-news{
+  width: 500px;
 }
 .block-news{
-  background: url("./Images/block-news-2.png") no-repeat;
-  background-size: 100%;
-  background-position: right;
+  background: url("./Images/block-news-3.png") no-repeat;
+  background-position: top left;
+  filter: drop-shadow(0 0 0.75rem rgb(221, 220, 220));
+  max-width:900px;
+  width:100%;
+  min-height: 420px;
 }
 h2{  
   font-family: 'Bebas Neue', cursive;
@@ -49,17 +61,15 @@ h2{
 .block-news > p, .block-evenements > p{
   font-size: 16px;
 }
-button{
-  display: inline-block;
-  border-style: none;
-  text-decoration: none;
-  border-radius: 10px!important;
-  text-align: center;
-  background-color: #6CBBB2;
-  color: #283845;
-  font-size: 14px;
-
-
+.container-footer{
+  background-color: #2A9D8F;
+  color: white;
+  min-height: 500px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+}
+p > .container-footer{
+  font-family:'Bebas Neue', cursive !important;
 }
 
 
@@ -69,3 +79,15 @@ button{
     width: 200px;
   }
 }
+
+
+
+
+/* @media screen and (min-width:360px){
+  .block-news{
+    background: url("./Images/block-news-2.png") no-repeat;
+  }
+  .block-evenements{
+    background: url("./Images/block-evenements-2.png") no-repeat;
+  }
+} */
