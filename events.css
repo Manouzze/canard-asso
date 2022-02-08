@@ -1,0 +1,64 @@
+
+/* //HEADER/ */
+
+main{
+max-width: 850px;
+margin: 0 auto;
+}
+.Duck-logo{
+  max-width: 245px;
+  filter: drop-shadow(0 0 0.75rem rgb(221, 220, 220));
+}
+
+
+
+/* //MAIN/ */
+
+h1{
+  letter-spacing: 2px;
+}
+h1, h2{
+  color: #283845;
+  font-family: 'Bebas Neue', cursive;
+}
+.donations-logo, .expedition-logo, .binocular-expedition, .binocular{
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+.binocular-expedition, .binocular{
+  height: 20px;
+}
+.natural-reserve-block, .life-duck-block, .duck-coins-block, .expedition-block{
+  background-size: 100%;
+  min-height: 180px;
+  background-size: cover;
+}
+.natural-reserve-block{
+  background: url(./Images/natural-reserve-block.jpg) no-repeat;
+  background-position: bottom;
+}
+.life-duck-block{
+  background: url(./Images/life-duck-block.jpg) no-repeat;
+  background-position: center;
+}
+.duck-coins-block{
+ background: url(./Images/duck-coins-block.jpg) no-repeat;
+ background-position: center;
+}
+.expedition-block{
+  background: url(./Images/expedition-block.jpg) no-repeat;
+  background-position: bottom;
+  
+}
+
+
+/* //FOOTER/ */
+
+.container-footer{
+  background-color: #2A9D8F;
+  color: white;
+  min-height: 500px;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+}

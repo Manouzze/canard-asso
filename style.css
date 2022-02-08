@@ -1,3 +1,8 @@
+/* //SETTINGS/ */
+h1, h2,.container-icons, .species-numbers, .member-numbers, .donation-numbers {
+  font-family: 'Bebas Neue', cursive;
+}
+/* //HEADER/ */
 
 header{
   min-height:244px ;
@@ -6,38 +11,49 @@ header{
   background-size: 128%;
   background-position: center;
 }
-main{
-  color: #283845;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.logo-container{
-  width: 170px;
+.logo-header{ /* --> Media queries*/
+  width: 200px;
 }
 h1{
-  font-family: 'Bebas Neue', cursive;
   font-size: 25px;
   letter-spacing: 3px;
   opacity: 90%;
  }
 .paragraph-header{
-  font-size: 12px;
-}
-.introductory-paragraph{
   font-size: 14px;
+}
+
+
+/* //MAIN/ */
+
+main{
+  color: #283845;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.introductory-paragraph-main{
+  font-size: 16px;
   max-width: 600px;
+  margin:12px auto;
+}
+.container-icons{
+  font-size: 24px;
 }
 .species-numbers, .member-numbers, .donation-numbers{
   color: #FF8800;
   font-size: 48px;
   margin-bottom: 0%;
 }
-.iconsx3-home{
-  font-family: 'Bebas Neue', cursive;
-  font-size: 24px;
-}
+
 .block-evenements{
   background: url("./Images/block-evenements-2.png") no-repeat;
   background-position: right;
+}
+.block-news{
+  background: url("./Images/block-news-3.png") no-repeat;
+  background-position: top left;
+}
+.block-evenements, .block-news{
   filter: drop-shadow(0 0 0.75rem rgb(221, 220, 220));
   max-width:900px;
   width:100%;
@@ -45,22 +61,14 @@ h1{
 }
 .paragraph-events, .paragraph-news{
   width: 500px;
-}
-.block-news{
-  background: url("./Images/block-news-3.png") no-repeat;
-  background-position: top left;
-  filter: drop-shadow(0 0 0.75rem rgb(221, 220, 220));
-  max-width:900px;
-  width:100%;
-  min-height: 420px;
-}
-h2{  
-  font-family: 'Bebas Neue', cursive;
-  font-size: 45px !important;
-}
-.block-news > p, .block-evenements > p{
   font-size: 16px;
 }
+h2{  
+  font-size: 45px !important;
+}
+
+/* //FOOTER/ */
+
 .container-footer{
   background-color: #2A9D8F;
   color: white;
@@ -68,26 +76,24 @@ h2{
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 3px;
 }
-p > .container-footer{
-  font-family:'Bebas Neue', cursive !important;
-}
 
 
 /* //MEDIA QUERIES/ */
 @media screen and (min-width:576px){
-  .logo-container{
-    width: 200px;
+  .logo-header{
+    width: 360px;
+  }
+}
+@media screen and (min-width:576px){
+  header{
+    min-height:600px ;
+    background: url("./Images/background-nav.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
   }
 }
 
 
 
 
-/* @media screen and (min-width:360px){
-  .block-news{
-    background: url("./Images/block-news-2.png") no-repeat;
-  }
-  .block-evenements{
-    background: url("./Images/block-evenements-2.png") no-repeat;
-  }
-} */
+

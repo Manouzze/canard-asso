@@ -4,35 +4,46 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="stylee.css">
-        <title>CANARDS ASSOS</title>
+        <link rel="stylesheet" href="events.css">
+        <title>EVENEMENTS</title>
+        <meta name="description" content="Retrouver tous les événements à venir de notre association.
+        Excursions, Initiations, événements caritatifs .. Rejoignez nous et oeuvrons pour nos canards !">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     </head>
-    <body>
-      <header>
-        <div class="nav-bar">
-          <p>CANARDS ASSOS</p>
 
-        </div>
-        <div class="d-flex flex-column align-items-center">
-          <div class="logo-container m-3">
+    <body>
+
+      <header> <!-- CONTAINER: Logo, H1  -->
+        <div class="container-header d-flex flex-column align-items-center">
+            <a href="index.html" class="Duck-logo mt-1">
               <img src="./Images/Logo.png" alt="Duck-logo" width="100%" />
-          </div>
-          <div class="title m-3">
-              <h1>EVENEMENTS A VENIR</h1>
-          </div>
+            </a>  
+          <h1 class="title m-3 mt-5 text-center">EVENEMENTS A VENIR</h1>
+        </div>
       </header>
-      <main>
-        <div class="container-duck-watching m-3">
-          <h2>OBSERVATION DES CANARDS</h2>
-          <img src="./Images/duck-watching.jpg" class="rounded-3" alt="duck-watching" width="100%" />
-          <div class="d-flex flex-wrap">
-            <p class="mx-4">Lieux : Lacs du Salogou</p>
-            <p class="mx-4">Heure : 11h</p>
-            <p class="mx-4">Nombres de participant : 12</p>
+      
+      <main> 
+
+        <!-- CONTAINER: Watching-duck, Introductory-paragraph -->
+        
+  
+        <div class="container-duck-watching m-3 mt-5">
+
+          <div class="title-event d-flex flex-row ">
+            <h2>OBSERVATION DES CANARDS</h2>
+            <img src="./Images/binocular.png" class="binocular mt-1" alt="binocular" />
           </div>
-          <div class="introductory-paragraph text-center my-5 m-3">
+
+          <img src="./Images/duck-watching.jpg" class="duck-watching rounded-3" alt="duck-watching" width="100%" />
+          
+          <div class="d-flex flex-wrap">
+            <p class="mx-4 my-1">Lieux : Lac du Salogou</p>
+            <p class="mx-4 my-1">Heure : 11h</p>
+            <p class="mx-4 my-1">Nombres de participant : 12</p>
+          </div>
+
+          <div class="introductory-paragraph text-center my-4 m-3">
             <p><strong class="title-introductory h6">The standard Lorem Ipsum passage, used since the 1500s</strong><br>
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -42,29 +53,51 @@
             </p>
             <button type="button" class="btn btn-dark">Participer</button>
           </div>
+
         </div> 
-        <div class="container-block-events">
+
+        <!-- CONTAINERS-block: Expedition, Life-duck, Duck-coins, Natural-reserve -->
+
+        <div class="container-all-events">
+
           <div class="expedition-block d-flex flex-column justify-content-center text-center rounded-3 my-4">
-            <h2>EXPEDITION ET TRECK</h2>
+
+            <div class="title-expedition d-flex flex-row justify-content-center">
+              <h2>EXPEDITION ET TRECK</h2>
+              <img src="./Images/binocular.png" class="binocular-expedition mt-1" alt="binocular" />
+              <img src="./Images/expedition-logo.png" class="expedition-logo" alt="expedition-logo" />
+            </div>
             <p class="paragraph-expedition m-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore  
                 et dolore magna aliqua.  ( Suite...)
             </p>
+
           </div>
+
           <div class="life-duck-block d-flex flex-column justify-content-center text-center rounded-3 my-4">
+
             <h2>INITIATION A LA VIE DES CANARDS</h2>
             <p class="paragraph-life-duck m-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore  
                 et dolore magna aliqua. ( Suite...)
             </p>
+
           </div>
+
           <div class="duck-coins-block d-flex flex-column justify-content-center text-center rounded-3 my-4">
-            <h2>EVENEMENTS: DUCK-COINS</h2>
+
+            <div class="title-duck-coins d-flex flex-row justify-content-center">
+              <h2>EVENEMENTS: DUCK-COINS</h2>
+              <img src="./Images/donations-logo.png" class="donations-logo" alt="donations-logo" />
+            </div>
+
             <p class="paragraph-duck-coins m-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore  
                 et dolore magna aliqua. ( Suite...)
             </p>
+
           </div>
+
           <div class="natural-reserve-block d-flex flex-column justify-content-center text-center rounded-3 my-4">
             <h2>RESERVE NATURELLE</h2>
             <p class="paragraph-naturel-reserve m-2">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
@@ -72,14 +105,21 @@
                 et dolore magna aliqua. ( Suite...)
             </p>
           </div>
+
         </div>
+
       </main>
 
-      <footer>
-        <div class="position-absolute top-110 start-50 translate-middle">
-            <img class=""src="./Images/Logo-elipse.png" alt="Logo-elipse" width="58px"></img>
-        </div>
+      <footer> <!-- CONTAINER: Logo, Footer menu, Social networks  -->
+
+        <div class="logo-duck-footer position-absolute top-110 start-50 translate-middle">
+          <a href="index.html">
+              <img class=""src="./Images/Logo-elipse.png" alt="Logo-elipse" width="58px"></img>
+          </a>
+      </div>
+
         <div class="container-footer mt-5 ">
+          
             <div class="logo-footer d-flex justify-content-center flex-column align-items-center mb-5">
                 <!--<img src="./Images/Logo-elipse.png" alt="Logo-elipse" width="58px"></img>-->
                 <p class="pt-5 fs-1">CANARD ASSOS</p>
@@ -94,6 +134,7 @@
                 <p>L'ASSOCIATION</p>
                 <p>NOS ENGAGEMENTS</p>
             </div>
+
             <div class="social-reseaux d-flex justify-content-center mt-3">
                 <img class="mx-2" src="./Images/Instagram - Negative.png" alt="Instagram" width="22px"></img>
                 <img class="mx-2" src="./Images/Facebook - Negative.png" alt="Facebook" width="22px"></img>
@@ -101,6 +142,9 @@
                 <img class="mx-2" src="./Images/Twitter - Negative.png" alt="Twitter" width="22px"></img>
                 <img class="mt-4 position-absolute bottom-110 start-50 translate-middle-x" src="./Images/coin-coin.png" alt="coin-coin"></img>
             </div>
+
         </div>
+        
       </footer>
+
     </body>
