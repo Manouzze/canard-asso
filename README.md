@@ -1,2 +1,4 @@
-# canard-asso
-Évaluation Studi : Créer un site web avec HTML, CSS et Bootstrap
+# Canard asso 🦆
+Conception d'un site vitrine responsive pour une association fictive
+
+Le site est réalisé avec le framework Bootstrap
